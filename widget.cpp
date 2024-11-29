@@ -48,6 +48,7 @@ void Widget::paintEvent(QPaintEvent* event)
 
     painter.setPen(QPen(Qt::black, 2));  // 设置画笔，黑色，粗细为2
 
+/* 不要学我，时间有限直接暴力画线了 */
     // 0->1
     QPoint start(60, 110);
     QPoint end(60, 300);
